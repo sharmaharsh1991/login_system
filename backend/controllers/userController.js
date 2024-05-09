@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 var saltRounds = 10;
 const Schema = require("./../validations/userValidations")
 
-//register function
+//register function//
 exports.createNewUser = async (req, res) => {
   let email = req.body.email;
   let password = req.body.password;
